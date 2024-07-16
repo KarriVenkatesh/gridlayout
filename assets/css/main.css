@@ -36,11 +36,19 @@ body {
 .wrapper>:nth-child(odd) {
     background-color: #363636;
     color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .wrapper>:nth-child(even) {
     background-color: #b84141;
     color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
